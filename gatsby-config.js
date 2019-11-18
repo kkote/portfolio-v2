@@ -23,6 +23,7 @@ module.exports = {
         url: 'https://api.github.com/graphql',
         headers: {
           Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
+          Accept:`application/vnd.github.mercy-preview+json`,
         },
         fetchOptions: {},
       },

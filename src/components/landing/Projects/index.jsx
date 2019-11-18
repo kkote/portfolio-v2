@@ -56,7 +56,7 @@ export const Projects = () => {
                 <h4>{node.name}</h4>
                 <p>{node.description}</p>
               </Content>
-              <Stats>
+             {/* <Stats>
                 <div>
                   <img src={starIcon} alt="stars" />
                   <span>{node.stargazers.totalCount}</span>
@@ -65,7 +65,7 @@ export const Projects = () => {
                   <img src={forkIcon} alt="forks" />
                   <span>{node.forkCount}</span>
                 </div>
-              </Stats>
+              </Stats> */}
             </Card>
           </Item>
         ))}
