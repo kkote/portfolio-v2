@@ -56,13 +56,13 @@ export const SEO = ({
   return (
     <Helmet>
       <meta name="description" content={description} />
-      <meta name="image" content={Thumbnail} />
+      <meta name="image" content={logo} />
 
       <meta property="og:url" content={`${url}${location}/?ref=smakosh.com`} />
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content={Thumbnail} />
+      <meta property="og:image" content={logo} />
       <meta property="fb:app_id" content={social.facebook} />
 
       <meta name="twitter:card" content="summary" />
@@ -70,7 +70,7 @@ export const SEO = ({
       <meta name="twitter:site" content={social.twitter} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image:src" content={Thumbnail} />
+      <meta name="twitter:image:src" content={logo} />
       <script type="application/ld+json">{structuredDataOrganization}</script>
       <link rel="publisher" href={socialLinks.google} />
       <title>{title}</title>

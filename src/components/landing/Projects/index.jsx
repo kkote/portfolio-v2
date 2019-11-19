@@ -4,6 +4,37 @@ import { Container, Card } from 'components/common'
 import starIcon from 'assets/icons/star.svg'
 import forkIcon from 'assets/icons/fork.svg'
 import { Wrapper, Grid, Item, Content, Stats } from './styles'
+import * as jsondata from 'data/myinfo.json';
+
+
+
+const Name = () => {
+  const json = jsondata.map(o => <li>{o.name}</li>);
+
+  return (
+    <div>
+      <ul>{json}</ul>
+    </div>
+
+  );
+};
+
+
+
+const ProjectName = (props) => (
+
+<div>
+<h5>The Project Name is</h5>
+<p>{props.name}</p>
+
+
+  </div>
+
+);
+
+
+
+
 
 export const Projects = () => {
   const {
@@ -40,6 +71,8 @@ export const Projects = () => {
       }
     `
   )
+
+
   return (
     <Wrapper as={Container} id="projects">
       <h2>Projects</h2>
@@ -65,6 +98,16 @@ export const Projects = () => {
                  rel="noopener noreferrer"
                 > Demo
                 </a>
+                <p>  <a 
+                href={"https://api.github.com/repos/kkote/"+node.name}
+                 target="_blank"
+                 rel="noopener noreferrer"
+                > Api
+                </a></p>
+
+                <ProjectName name={node.name} />
+                <Name name={node.name} />
+              
               </Content>
              {/* <Stats>
                 <div>
