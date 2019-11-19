@@ -26,6 +26,7 @@ export const Projects = () => {
                   id
                   name
                   url
+                  homepageUrl
                   description
                   stargazers {
                     totalCount
@@ -46,15 +47,24 @@ export const Projects = () => {
         {edges.map(({ node }) => (
           <Item
             key={node.id}
-            as="a"
-            href={node.url}
-            target="_blank"
-            rel="noopener noreferrer"
+            as="div"
           >
             <Card>
               <Content>
                 <h4>{node.name}</h4>
                 <p>{node.description}</p>
+                <a 
+                href={node.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                > Github
+                </a>
+                <a 
+                href={node.homepageUrl}
+                 target="_blank"
+                 rel="noopener noreferrer"
+                > Demo
+                </a>
               </Content>
              {/* <Stats>
                 <div>
