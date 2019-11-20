@@ -17,12 +17,12 @@ export const Intro = () => (
 				<h4>{data.name}</h4>
 				<h4>{dataconfig.defaultDescription}</h4>
 				<Button as={AnchorLink} href="#contact">
-					Hire me
+					Contact Me
 				</Button>
 			</Details>
-			<Thumbnail>
+			{/*<Thumbnail>
 				<img src={dev} alt={dataconfig.defaultDescription} />
-			</Thumbnail>
+			</Thumbnail> */}
 		</IntroWrapper>
 	</Wrapper>
 )

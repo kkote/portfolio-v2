@@ -17,7 +17,7 @@ module.exports = {
 	themeColor: '#6b63ff',
 	backgroundColor: '#6b63ff',
 	social: {
-		facebook: 'appId',
+		facebook: '',
 		twitter: '',
 	},
 	address: {
@@ -32,10 +32,10 @@ module.exports = {
 	},
 	foundingDate: '2018',
 	recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN',
-	BfCalcReact: "JavaScript, React",
+	BfCalcReact: ["JavaScript", "React"],
     bf_calculator: "JavaScript, HTML / CSS, Bootstrap,",
-    WeatherReactApp: "JavaScript, Weather API, Material-UI",
-    jqueryLibrary: "JavaScript, jQuery, Google Books API",
+    WeatherReactApp: ["JavaScript", "Weather API", "Material-UI"],
+    jqueryLibrary: ["JavaScript ", "jQuery", "Google Books API"],
     portfolio_gatsby: "Blahhhh not gonna use this gatsby starter",
     gatsby_universal: "Blahhhh remove univseral",
     Stock_Data: "Python, MySQL, AWS"

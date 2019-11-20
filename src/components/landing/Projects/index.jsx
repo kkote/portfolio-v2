@@ -26,14 +26,27 @@ const Name = (props) => {
 
   const projectName = props.name;
   const languagesUsed= data[projectName];
-  console.log("this is nametest: "+projectName);
-  console.log("this is testtest: " +languagesUsed);
+  console.log("this is projectName: "+projectName);
+  console.log("this is languagesUsed: ");
+  console.log(languagesUsed);
+  console.log(typeof languagesUsed);
+  // const parsedLang = JSON.parse(languagesUsed);
+  // console.log(parsedLang);
+  // console.log(typeof parsedLang);
 
   return (
     <div>
   <p>{languagesUsed}</p>
     </div>
+    <div>
+      <ul>
 
+      {languagesUsed.map((item, i) => (
+            <li key={i}>{item}</li>
+          ))}
+
+      </ul>
+    </div>
   );
 };
 
