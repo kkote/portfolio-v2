@@ -37,25 +37,41 @@ export const Item = styled.div`
 
 export const Content = styled.div`
 	padding: 1rem 0;
+
+	svg {
+		height: 30px;
+		width: 30px;
+	}
 `
 
-export const Stats = styled.div`
-	display: flex;
-	align-items: center;
+// export const Stats = styled.div`
+// 	display: flex;
+// 	align-items: center;
 
-	div {
-		display: flex;
-		&:first-child {
-			margin-right: 0.5rem;
-		}
+// 	div {
+// 		display: flex;
+// 		&:first-child {
+// 			margin-right: 0.5rem;
+// 		}
 
-		img {
-			margin: 0;
-		}
+// 		img {
+// 			margin: 0;
+// 		}
 
-		span {
-			color: #000;
-			margin-left: 0.5rem;
-		}
+// 		span {
+// 			color: #000;
+// 			margin-left: 0.5rem;
+// 		}
+// 	}
+// `
+
+export const Lang = styled.ul`
+	display: inline-flex;
+	width: 100%;
+	justify-content: flex-start;
+	list-style-type: none;
+
+	li {
+		margin-left: 20px;
 	}
 `
