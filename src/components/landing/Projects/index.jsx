@@ -5,10 +5,12 @@ import starIcon from 'assets/icons/star.svg'
 import forkIcon from 'assets/icons/fork.svg'
 import { Wrapper, Grid, Item, Content, Stats } from './styles'
 import * as jsondata from 'data/myinfo.json';
+import * as data from 'data/config';
 
 
 
-const Name = () => {
+{/*const Name = () => {
+
   const json = jsondata.map(o => <li>{o.name}</li>);
 
   return (
@@ -17,23 +19,23 @@ const Name = () => {
     </div>
 
   );
+}; */}
+
+
+const Name = (props) => {
+
+  const projectName = props.name;
+  const languagesUsed= data[projectName];
+  console.log("this is nametest: "+projectName);
+  console.log("this is testtest: " +languagesUsed);
+
+  return (
+    <div>
+  <p>{languagesUsed}</p>
+    </div>
+
+  );
 };
-
-
-
-const ProjectName = (props) => (
-
-<div>
-<h5>The Project Name is</h5>
-<p>{props.name}</p>
-
-
-  </div>
-
-);
-
-
-
 
 
 export const Projects = () => {
@@ -49,7 +51,7 @@ export const Projects = () => {
         github {
           viewer {
             repositories(
-              first: 8
+              first: 2
               orderBy: { field: STARGAZERS, direction: DESC }
             ) {
               edges {
@@ -104,10 +106,8 @@ export const Projects = () => {
                  rel="noopener noreferrer"
                 > Api
                 </a></p>
-
-                <ProjectName name={node.name} />
                 <Name name={node.name} />
-              
+             
               </Content>
              {/* <Stats>
                 <div>
