@@ -54,3 +54,13 @@ export const Thumbnail = styled.div`
 		width: 100%;
 	}
 `
+
+export const List = styled.ul`
+columns: 3;
+-webkit-columns: 3;
+-moz-columns: 3;
+
+padding-left: 1.2rem;
+
+
+`

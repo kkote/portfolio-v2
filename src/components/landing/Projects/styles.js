@@ -36,12 +36,24 @@ export const Item = styled.div`
 `
 
 export const Content = styled.div`
-	padding: 1rem 0;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
 
-	svg {
+	img {
 		height: 30px;
 		width: 30px;
+		filter: saturate(100%) grayscale(100%);
 	}
+
+	
+`
+
+export const Icons = styled.div`
+	display: flex;
+	justify-content: flex-end;
 `
 
 // export const Stats = styled.div`
@@ -66,12 +78,13 @@ export const Content = styled.div`
 // `
 
 export const Lang = styled.ul`
-	display: inline-flex;
+	display: inline-flex;flex-wrap: wrap;
 	width: 100%;
 	justify-content: flex-start;
 	list-style-type: none;
 
+
 	li {
-		margin-left: 20px;
+		margin-right: 10px;
 	}
 `

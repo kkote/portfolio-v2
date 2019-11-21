@@ -308,7 +308,6 @@ export const Global = createGlobalStyle`
       margin-bottom: 1.45rem;
     }
     ul {
-      margin-left: 1.45rem;
       margin-right: 0;
       margin-top: 0;
       padding-bottom: 0;
