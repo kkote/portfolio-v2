@@ -48,6 +48,9 @@ export const Content = styled.div`
 		filter: saturate(100%) grayscale(100%);
 	}
 
+	p {
+		max-width: 85%;
+	}
 	
 `
 

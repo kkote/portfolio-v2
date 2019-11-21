@@ -86,6 +86,7 @@ export const ThirdLine = styled.div`
 export const FourthLine = styled.div`
 	font-size: 16px;
 	margin-top: 25px;
+	max-width: 500px;
 	
 	p {
 		margin: 0px 0px 15px;

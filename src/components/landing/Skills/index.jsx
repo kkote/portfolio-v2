@@ -23,7 +23,8 @@ export const Skills = () => (
             <li>React</li>
             <li>jQuery</li>
             <li>HTML5 / CSS3</li>
-            <li>Bootstrap / Material-UI</li>
+            <li>Bootstrap</li>
+            <li>Material-UI</li>
             <li>Python</li>
             <li>MySQL</li>
             <li>AWS</li>
