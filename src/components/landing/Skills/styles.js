@@ -12,15 +12,19 @@ export const SkillsWrapper = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	flex-direction: row;
+	
 
 	@media (max-width: 960px) {
 		flex-direction: column;
 	}
 `
 
+
 export const Details = styled.div`
 	flex: 1;
 	padding-left: 2rem;
+	width: 60%;
 
 	@media (max-width: 960px) {
 		padding-left: unset;
@@ -35,7 +39,7 @@ export const Details = styled.div`
 
 	p {
 		margin-bottom: 2.5rem;
-		font-size: 20pt;
+		font-size: 1.4em;
 		font-weight: normal;
 		line-height: 1.3;
 		color: #707070;
@@ -44,9 +48,10 @@ export const Details = styled.div`
 
 export const Thumbnail = styled.div`
 	flex: 1;
+	width: 40%;
 
 	@media (max-width: 960px) {
-		width: 100%;
+		width: 85%;
 		margin-bottom: 2rem;
 	}
 

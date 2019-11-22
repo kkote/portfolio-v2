@@ -1,18 +1,18 @@
 import React from 'react'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { Container, Button } from 'components/common'
+import { Container, Button, Header } from 'components/common'
 import dev from 'assets/illustrations/skills.svg'
-import { Wrapper, SkillsWrapper, Details, Thumbnail, List } from './styles'
+import { Wrapper, SkillsWrapper, Details, Thumbnail, List, HeaderSkills} from './styles'
 import * as dataconfig from 'data/config';
 
 export const Skills = () => (
   <Wrapper id="about">
+    
     <SkillsWrapper as={Container}>
-      <Thumbnail>
-        <img src={dev} alt={dataconfig.defaultDescription}  />
-      </Thumbnail>
+    <Header>About Me</Header>
       <Details>
-        <h1>Hi There!</h1>
+      
+        
         <p>
         Hello! I'm Kate, a web developer based in North Carolina who enjoys building front-end applications. I develop exceptional websites that provide intuitive user interfaces with efficient and modern technologies.
         </p>
@@ -20,7 +20,7 @@ export const Skills = () => (
         <div>
           <List>
             <li>JavaScript (ES6+)</li>
-            <li>React</li>
+            <li>React </li>
             <li>jQuery</li>
             <li>HTML5 / CSS3</li>
             <li>Bootstrap</li>
@@ -34,6 +34,10 @@ export const Skills = () => (
           Contact Me
         </Button>  */}
       </Details>
+
+      <Thumbnail>
+        <img src={dev} alt={dataconfig.defaultDescription}  />
+      </Thumbnail>
     </SkillsWrapper>
   </Wrapper>
 )

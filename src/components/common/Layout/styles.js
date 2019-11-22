@@ -602,12 +602,14 @@ export const Global = createGlobalStyle`
       margin: 0;
       padding: 0;
       font-family: 'Roboto', Helvetica, sans-serif;
+      font-size: 16px;
       color: hsla(0, 0%, 0%, 0.8);
       font-weight: normal;
       word-wrap: break-word;
+      font-size: 16px;
       font-kerning: normal;
       -moz-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
-      -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+      -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';s
       -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
       font-feature-settings: 'kern', 'liga', 'clig', 'calt';
       width: 90%;
