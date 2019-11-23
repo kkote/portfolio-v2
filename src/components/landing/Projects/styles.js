@@ -45,7 +45,7 @@ export const Content = styled.div`
 	img {
 		height: 30px;
 		width: 30px;
-		filter: saturate(100%) grayscale(100%);
+		filter: saturate(100%) hue-rotate(-75deg);
 	}
 
 	p {
@@ -57,6 +57,10 @@ export const Content = styled.div`
 export const Icons = styled.div`
 	display: flex;
 	justify-content: flex-end;
+
+	a {
+		padding-right: .5rem;
+	}
 `
 
 // export const Stats = styled.div`
@@ -89,5 +93,6 @@ export const Lang = styled.ul`
 
 	li {
 		margin-right: 10px;
+		margin-bottom: 0px;
 	}
 `

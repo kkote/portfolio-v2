@@ -61,6 +61,7 @@ export const Thumbnail = styled.div`
 `
 
 export const List = styled.ul`
+list-style-type: circle;
 columns: 3;
 -webkit-columns: 3;
 -moz-columns: 3;

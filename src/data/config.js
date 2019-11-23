@@ -1,6 +1,6 @@
 module.exports = {
 	defaultTitle: 'Kote',
-	logo: 'https://avatars3.githubusercontent.com/u/27905113?s=460&v=4',
+	logo: './static/favicon/laptop.png',
 	author: 'kkote',
 	url: 'https://kkote.github.io/',
 	legalName: 'Katherine Kote',

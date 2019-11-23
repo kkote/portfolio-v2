@@ -1,7 +1,9 @@
 import React from 'react'
 import { Container } from 'components/common'
 import { Wrapper, Flex, Links, Details } from './styles'
-import social from './social.json'
+import social from './social.json';
+import githubIcon from 'assets/icons/github.svg';
+import linkedinIcon from 'assets/icons/linkedin.svg';
 import * as data from 'data/config';
 
 export const Footer = () => (
@@ -25,17 +27,29 @@ export const Footer = () => (
 				</span>
 			</Details>
 			<Links>
-				{social.map(({ id, name, link, icon }) => (
+				{/*{social.map(({ id, name, link, icon }) => (
 					<a
 						key={id}
 						href={link}
 						target="_blank"
 						rel="noopener noreferrer"
-						aria-label={`follow me on ${name}`}
 					>
-						<img width="24" src={icon} alt={name} />
+						<img  src={icon} alt="alt" /> 
 					</a>
-				))}
+				))} */}
+				<a		href="https://github.com/kkote"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img  src={githubIcon} alt="alt" /> 
+					</a>
+					<a		href="https://www.linkedin.com/in/kkote/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<img  src={linkedinIcon} alt="alt" /> 
+					</a>
+
 			</Links>
 		</Flex>
 	</Wrapper>

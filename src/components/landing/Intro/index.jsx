@@ -25,10 +25,10 @@ export const Intro = () => (
 				<SecondLine>Kate.</SecondLine>
 				<ThirdLine>I build things for the web.</ThirdLine>
 				<FourthLine>
-					<p>I'm a web developer based in NC specializing in building (and occasionally designing) exceptional, high-quality websites and applications.</p>
+				<p>I build front-end applications, utilize React to create functional user experiences, and design practical back-end programs with Python.</p>
 				</FourthLine>
 				<div >
-					<Contact href="" class="">Get In Touch</Contact>
+					<Contact href="" >Get In Touch</Contact>
 				</div>
 				
 
