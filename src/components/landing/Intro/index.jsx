@@ -23,7 +23,7 @@ export const Intro = () => (
 				
 				<FirstLine>Hi, my name is</FirstLine>
 				<SecondLine>Kate.</SecondLine>
-				<ThirdLine>I build things for the web.</ThirdLine>
+				<ThirdLine>A Web Developer.</ThirdLine>
 				<FourthLine>
 				<p>I build front-end applications, utilize React to create functional user experiences, and design practical back-end programs with Python.</p>
 				</FourthLine>
