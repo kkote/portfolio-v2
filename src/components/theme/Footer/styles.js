@@ -4,13 +4,21 @@ import footerSvg from 'assets/illustrations/footer.svg';
 
 export const Wrapper = styled.div`
 	padding: 28rem 0 4rem 0;
-	background-image: url('../illustrations/footer.svg');
-	background-size: cover;
-	background-position: top;
-	background-repeat: no-repeat;
+	width: 100vw;
+	position: relative;
+	margin-left: -50vw;
+	left: 50%;
+	background: #17252a;
+	color:white;
+	
+
+	a {
+		
+		color: #3aafa9;
+	}
 
 	@media (max-width: 1960px) {
-		padding: 14rem 0 4rem;
+		padding: 10rem 0 4rem;
 	}
 `
 
