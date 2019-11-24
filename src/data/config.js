@@ -31,7 +31,7 @@ module.exports = {
 		phone: 'phone number',
 	},
 	foundingDate: '2018',
-	recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN',
+	recaptcha_key: '6Le0TcQUAAAAANa4kRViTC37plE9OHnBHQg2Iryd',
 	'bf-calc-react': ["JavaScript", "React", "Bootstrap"],
     'bf-calculator': ["JavaScript", "HTML", "CSS", "Bootstrap"],
     'weather-app': ["JavaScript", "React", "Open Weather API", "Material-UI"],
