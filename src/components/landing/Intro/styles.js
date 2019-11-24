@@ -62,10 +62,9 @@ export const Thumbnail = styled.div`
 	}
 `
 export const FirstLine = styled.div`
-	font-size: 13px;
-	color: rgb(41,132,110);
-	margin: 0px 0px 20px 3px;
+	font-size: 40px;
 	font-weight: normal;
+	color: rgb(136, 146, 176);
 `
 
 export const SecondLine = styled.div`
@@ -103,10 +102,10 @@ export const Contact = styled.a`
 	color: inherit;
 	background-color:
 	transparent;
-	border: 1px solid rgb(41, 132, 110);
+	border: .15rem solid rgb(41, 132, 110);
 	border-radius: 3px;
 	padding: 1.25rem 1.75rem;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 1;
 	text-decoration: none;
 	cursor: pointer;
