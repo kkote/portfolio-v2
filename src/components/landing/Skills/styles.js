@@ -5,10 +5,11 @@ export const Wrapper = styled.div`
 	background-size: contain;
 	background-position: left top;
 	background-repeat: no-repeat;
+	padding: 4rem 0;
 `
 
 export const SkillsWrapper = styled.div`
-	padding: 4rem 0;
+	
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -39,7 +40,7 @@ export const Details = styled.div`
 
 	p {
 		margin-bottom: 2.5rem;
-		font-size: 1.4em;
+		font-size: 1.2em;
 		font-weight: normal;
 		line-height: 1.3;
 		color: #707070;

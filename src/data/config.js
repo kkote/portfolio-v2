@@ -32,15 +32,15 @@ module.exports = {
 	},
 	foundingDate: '2018',
 	recaptcha_key: '6Lcs6lQUAAAAAEwhNH2IsobIe2csdda4TU3efpMN',
-	BfCalcReact: ["JavaScript", "React", "Bootstrap"],
-    bf_calculator: ["JavaScript", "HTML", "CSS", "Bootstrap"],
-    WeatherReactApp: ["JavaScript", "React", "Open Weather API", "Material-UI"],
-    jqueryLibrary: ["JavaScript ", "jQuery", "Google Books API"],
-    portfolio_gatsby: [ "React", "Gatsby", "GraphQL", "GitHub API"],
-	Stock_Data: ['Python', 'MySQL', "AWS"],
-	Python_Projects: ["Python"],
-	library_react:["JavaScript", "React", "Google Books API"],
-	"kkote.github.io":["HTML", "CSS", "Bootstrap"]
+	'bf-calc-react': ["JavaScript", "React", "Bootstrap"],
+    'bf-calculator': ["JavaScript", "HTML", "CSS", "Bootstrap"],
+    'weather-app': ["JavaScript", "React", "Open Weather API", "Material-UI"],
+    'library-jquery': ["JavaScript ", "jQuery", "Google Books API"],
+    'portfolio-v2': [ "React", "Gatsby", "GraphQL", "GitHub API"],
+	'stocks-data': ['Python', 'MySQL', "AWS" , 'EOD Historical Data API'],
+	'python-projects': ["Python"],
+	'library-react':["JavaScript", "React", "Google Books API"],
+	'kkote.github.io':["HTML", "CSS", "Bootstrap"]
 	
 }
 

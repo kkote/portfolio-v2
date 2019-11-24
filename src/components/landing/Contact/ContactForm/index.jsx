@@ -27,7 +27,7 @@ const ContactForm = ({
 				name="name"
 				component="input"
 				aria-label="name"
-				placeholder="Full name*"
+				placeholder="Full name"
 				error={touched.name && errors.name}
 			/>
 			<ErrorMessage component={Error} name="name" />
@@ -40,7 +40,7 @@ const ContactForm = ({
 				as={FastField}
 				type="email"
 				name="email"
-				placeholder="Email*"
+				placeholder="johndoe@email.com"
 				error={touched.email && errors.email}
 			/>
 			<ErrorMessage component={Error} name="email" />
@@ -54,7 +54,7 @@ const ContactForm = ({
 				rows="8"
 				type="text"
 				name="message"
-				placeholder="Message*"
+				placeholder="Message"
 				error={touched.message && errors.message}
 			/>
 			<ErrorMessage component={Error} name="message" />

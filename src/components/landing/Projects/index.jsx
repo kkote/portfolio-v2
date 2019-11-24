@@ -1,8 +1,6 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import { Container, Card, Header } from 'components/common'
-import starIcon from 'assets/icons/star.svg'
-import forkIcon from 'assets/icons/fork.svg'
 import { Wrapper, Grid, Item, Content, Stats, Lang, GithubSvg, Icons } from './styles'
 import * as jsondata from 'data/myinfo.json';
 import * as data from 'data/config';
@@ -11,38 +9,22 @@ import openIcon from 'assets/icons/open_in_browser-24px.svg';
 
 
 
-
-
-{/*const Name = () => {
-
-  const json = jsondata.map(o => <li>{o.name}</li>);
-
-  return (
-    <div>
-      <ul>{json}</ul>
-    </div>
-
-  );
-}; */}
-
-
 const Name = (props) => {
 
   const projectName = props.name;
-  console.log("this is projectName: ");
-  console.log(projectName);
-  console.log(typeof projectName);
+  // console.log("this is projectName: ");
+  // console.log(projectName);
+  // console.log(typeof projectName);
   const languagesUsed= data[projectName] || ["HTML", "CSS", "Bootstrap"] ;
-  
-  console.log("this is languagesUsed: ");
-  console.log(languagesUsed);
-  console.log(typeof languagesUsed);
+  // console.log("this is languagesUsed: ");
+  // console.log(languagesUsed);
+  // console.log(typeof languagesUsed);
 
   return (
       <Lang>
 
       {languagesUsed.map((item, i) => (
-            <li key={i}>{item}</li>
+            <li key={i}>{item}{" "}</li>
           )) }
 
       </Lang>
@@ -98,7 +80,6 @@ export const Projects = () => {
           >
             <Card>
               <Content>
-             
                 <div>
                 <Icons>
 
@@ -112,7 +93,6 @@ export const Projects = () => {
                     <img src={githubIcon} alt="GitHub Icon"  /> 
                   </a>   
 
-               
                 </Icons>
 
                    <h4>{node.name}</h4>
@@ -130,16 +110,6 @@ export const Projects = () => {
                 </a></p> */}
                 
               </Content>
-             {/* <Stats>
-                <div>
-                  <img src={starIcon} alt="stars" />
-                  <span>{node.stargazers.totalCount}</span>
-                </div>
-                <div>
-                  <img src={forkIcon} alt="forks" />
-                  <span>{node.forkCount}</span>
-                </div>
-              </Stats> */}
             </Card>
           </Item>
         ))}

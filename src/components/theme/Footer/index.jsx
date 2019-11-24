@@ -12,10 +12,7 @@ export const Footer = () => (
 			<Details>
 				<h2>{data.defaultTitle}</h2>
 				<span>
-					© All rights are reserved | {new Date().getFullYear()} | Made with{' '}
-					<span aria-label="love" role="img">
-						💖
-					</span>{' '}
+					© All rights are reserved | {new Date().getFullYear()} | Made 
 					by{' '}
 					<a
 						href={data.socialLinks.github}

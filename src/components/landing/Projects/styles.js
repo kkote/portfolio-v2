@@ -50,6 +50,7 @@ export const Content = styled.div`
 
 	p {
 		max-width: 85%;
+		color:  #0a192f;
 	}
 	
 `
@@ -63,36 +64,18 @@ export const Icons = styled.div`
 	}
 `
 
-// export const Stats = styled.div`
-// 	display: flex;
-// 	align-items: center;
-
-// 	div {
-// 		display: flex;
-// 		&:first-child {
-// 			margin-right: 0.5rem;
-// 		}
-
-// 		img {
-// 			margin: 0;
-// 		}
-
-// 		span {
-// 			color: #000;
-// 			margin-left: 0.5rem;
-// 		}
-// 	}
-// `
-
 export const Lang = styled.ul`
 	display: inline-flex;flex-wrap: wrap;
 	width: 100%;
 	justify-content: flex-start;
 	list-style-type: none;
+	font-size: 14px;
+	font-family: monospace;
 
 
 	li {
-		margin-right: 10px;
+		margin-right: 15px;
 		margin-bottom: 0px;
+		color: #333f58;
 	}
 `

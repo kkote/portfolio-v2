@@ -6,16 +6,17 @@ import { Wrapper, SkillsWrapper, Details, Thumbnail, List, HeaderSkills} from '.
 import * as dataconfig from 'data/config';
 
 export const Skills = () => (
-  <Wrapper id="about">
-    
-    <SkillsWrapper as={Container}>
-    <Header>About Me</Header>
+  <Wrapper as={Container} id="about">
+      <Header>About Me</Header>
+    <SkillsWrapper >
+   
       <Details>
       
         
         <p>
-        Hello! I'm Kate, a web developer based in North Carolina who enjoys building front-end applications. I develop exceptional websites that provide intuitive user interfaces with efficient and modern technologies.
+        Hi! I'm Kate, a web developer that recently moved to North Carolina, from Missouri. I enjoy building intuitive user interfaces with JavaScript technologies such as React. I also develop practical back-end programs with Python and Django.
         </p>
+        <p>I'm passionate about learning and enjoy continously challeneging myself. Currently I'm taking Java and Spring Boot courswork which will be applied to make a project a fullstack application.</p>
         <p>Here are a few technologies I've been working with recently:</p>
         <div>
           <List>

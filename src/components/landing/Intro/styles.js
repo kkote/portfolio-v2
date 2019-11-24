@@ -94,6 +94,11 @@ export const FourthLine = styled.div`
 	}
 `
 
+
+// color: #0a192f;
+// background-color: #e6f1ff;
+// border: 1px solid #8892b0;
+
 export const Contact = styled.a`
 	color: inherit;
 	background-color:
