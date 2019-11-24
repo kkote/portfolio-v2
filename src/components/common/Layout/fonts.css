@@ -26,3 +26,7 @@
     url('./fonts/roboto-v18-latin-700.ttf') format('truetype'),
     url('./fonts/roboto-v18-latin-700.svg#Roboto') format('svg');
 }
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Nunito+Sans:400,700|Questrial&display=swap');

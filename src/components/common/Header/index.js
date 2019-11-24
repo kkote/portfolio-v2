@@ -10,6 +10,7 @@ margin: 10px 0px 40px;
 width: 100%;
 font-size: 32px;
 white-space: nowrap;
+font-family: 'Nunito Sans',sans-serif;
 
 	color:rgb(41,132,110);
 	align-self: start;

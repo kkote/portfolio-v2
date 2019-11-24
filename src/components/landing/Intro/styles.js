@@ -21,6 +21,7 @@ export const IntroWrapper = styled.div`
 
 export const Details = styled.div`
 	flex: 1;
+	font-family: 'Nunito Sans',sans-serif;
 
 	@media (max-width: 960px) {
 		width: 100%;
@@ -64,7 +65,6 @@ export const FirstLine = styled.div`
 	font-size: 13px;
 	color: rgb(41,132,110);
 	margin: 0px 0px 20px 3px;
-	font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
 	font-weight: normal;
 `
 
@@ -107,7 +107,6 @@ export const Contact = styled.a`
 	border-radius: 3px;
 	padding: 1.25rem 1.75rem;
 	font-size: 14px;
-	font-family: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace;
 	line-height: 1;
 	text-decoration: none;
 	cursor: pointer;

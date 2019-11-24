@@ -28,10 +28,12 @@ export const Item = styled.div`
 
 	h4 {
 		color: #212121;
+		font-family: 'Nunito Sans', sans-serif;
 	}
 
 	p {
 		color: #707070;
+		font-family: 'Lato', sans-serif;
 	}
 `
 
@@ -70,7 +72,9 @@ export const Lang = styled.ul`
 	justify-content: flex-start;
 	list-style-type: none;
 	font-size: 14px;
-	font-family: monospace;
+    font-family: 'Questrial', sans-serif;
+
+
 
 
 	li {
