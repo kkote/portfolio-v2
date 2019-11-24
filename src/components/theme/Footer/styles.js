@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 	position: relative;
 	margin-left: -50vw;
 	left: 50%;
-	background: #17252a;
+	background: #313840;
 	color:white;
 	
 

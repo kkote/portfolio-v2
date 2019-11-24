@@ -27,7 +27,7 @@ const ContactForm = ({
 				name="name"
 				component="input"
 				aria-label="name"
-				placeholder="Full name"
+				placeholder="You Full Name"
 				error={touched.name && errors.name}
 			/>
 			<ErrorMessage component={Error} name="name" />
@@ -40,7 +40,7 @@ const ContactForm = ({
 				as={FastField}
 				type="email"
 				name="email"
-				placeholder="johndoe@email.com"
+				placeholder="Your E-mail"
 				error={touched.email && errors.email}
 			/>
 			<ErrorMessage component={Error} name="email" />
@@ -51,10 +51,10 @@ const ContactForm = ({
 				component="textarea"
 				aria-label="message"
 				id="message"
-				rows="8"
+				rows="4"
 				type="text"
 				name="message"
-				placeholder="Message"
+				placeholder="Your Message"
 				error={touched.message && errors.message}
 			/>
 			<ErrorMessage component={Error} name="message" />
@@ -82,7 +82,7 @@ const ContactForm = ({
 		)}
 		<Center>
 			<Button secondary type="submit" disabled={isSubmitting}>
-				Submit
+				Send Message
 			</Button>
 		</Center>
 	</Form>
