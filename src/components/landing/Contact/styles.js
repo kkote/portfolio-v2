@@ -2,11 +2,12 @@ import styled from 'styled-components'
 
 export const Wrapper = styled.div`
 	padding: 4rem 0;
-	display: flex;
+	
 	align-items: flex-start;
 	justify-content: space-between;
 
 	@media (max-width: 960px) {
+		display: flex;
 		flex-direction: column;
 	}
 `
@@ -14,6 +15,7 @@ export const Wrapper = styled.div`
 export const Details = styled.div`
 	flex: 1;
 	padding-right: 2rem;
+	width: 75%;
 
 	@media (max-width: 960px) {
 		padding-right: unset;
