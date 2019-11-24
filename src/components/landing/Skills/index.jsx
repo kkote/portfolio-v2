@@ -14,10 +14,10 @@ export const Skills = () => (
       
         
         <p>
-        Hi! I'm Kate, a web developer that recently moved to North Carolina, from Missouri. I enjoy building intuitive user interfaces with JavaScript technologies such as React. I also develop practical back-end programs with Python and Django.
+        Hi! I'm Kate, a web developer that builds intuitive user interfaces with JavaScript and React. I also develop practical back-end programs with Python and Django.
         </p>
-        <p>I'm passionate about learning and enjoy continously challeneging myself. Currently I'm taking Java and Spring Boot courswork which will be applied to make a project a fullstack application.</p>
-        <p>Here are a few technologies I've been working with recently:</p>
+        <p>I'm passionate about learning and enjoy continuously challenging myself. Currently, I'm taking Java and Spring Boot coursework which will be applied to make a project a full-stack application.</p>
+        <p>Technologies I've been working with:</p>
         <div>
           <List>
             <li>JavaScript (ES6+)</li>

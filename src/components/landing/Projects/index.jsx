@@ -12,13 +12,7 @@ import openIcon from 'assets/icons/open_in_browser-24px.svg';
 const Name = (props) => {
 
   const projectName = props.name;
-  // console.log("this is projectName: ");
-  // console.log(projectName);
-  // console.log(typeof projectName);
   const languagesUsed= data[projectName] || ["HTML", "CSS", "Bootstrap"] ;
-  // console.log("this is languagesUsed: ");
-  // console.log(languagesUsed);
-  // console.log(typeof languagesUsed);
 
   return (
       <Lang>
@@ -46,6 +40,7 @@ export const Projects = () => {
           viewer {
             repositories(
               first: 6
+              privacy: PUBLIC
               orderBy: { field: PUSHED_AT, direction: DESC }
             ) {
               edges {
@@ -55,10 +50,6 @@ export const Projects = () => {
                   url
                   homepageUrl
                   description
-                  stargazers {
-                    totalCount
-                  }
-                  forkCount
                 }
               }
             }
@@ -79,7 +70,7 @@ export const Projects = () => {
             as="div"
           >
             <Card>
-              <Content>
+                    <Content>
                 <div>
                 <Icons>
 
@@ -100,14 +91,6 @@ export const Projects = () => {
                 
                 </div>
                <div><Name name={node.name} /></div>
-                
-               
-                {/* <p>  <a 
-                href={"https://api.github.com/repos/kkote/"+node.name}
-                 target="_blank"
-                 rel="noopener noreferrer"
-                > Api
-                </a></p> */}
                 
               </Content>
             </Card>
