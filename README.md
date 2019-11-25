@@ -1,90 +1,48 @@
 
 
+# Portfolio
+
+Portfolio website using a React, Gatsby, and displays projects with the GitHub API 
 
 
-## Structure
 
-```bash
-.
-├── data
-│   └── config              # SEO related tags
-├── src
-│   └── assets              # Assets
-│   │   │── icons             # icons
-│   │   │── illustrations     # illustrations from (undraw.co)
-│   │   └── thumbnail         # cover of your website when it's shared to social media
-│   ├── components          # Components
-│   │   │── common            # Common components
-│   │   │── landing           # Components used on the landing page
-│   │   └── theme             # Header & Footer
-│   └── pages               # Pages
-└── static                  # favicon & Netlify redirects
-```
 
-## Prerequisites
+# How to Use
+1. Clone or Download repo.
+2. cd into folder.
+3. Create a `.env.development` file, and add GitHub token
+4. Edit Google Recaptcha public key on `data/config.js` 
+5. Run  ``` npm install ```.
+6. Run  ``` npm start ```.
+7. Go to local dev port 8000 (http://localhost:8000)
+8. Make changes in src/ 
 
-[Yarn](https://yarnpkg.com/en/)
+Go to: 
+(https://github.com/smakosh/gatsby-theme-portfolio)
 
-Please create a new file `.env.development` and put this env variable with your GitHub token
+For more info.
 
-> If you're building locally, you will have to create a new file `.env.production` and put the same env variable
 
-```bash
-GITHUB_TOKEN=xxxxxxxxxx
-```
-
-Don't forget to edit your site's data on `data/config.js` file with your Google Recaptcha public key
-
-When deploying on Netlify, you will have to set the private key as well
-
-```bash
-SITE_RECAPTCHA_KEY=xxxxx
-
-SITE_RECAPTCHA_SECRET=xxxxx
-```
-
-I highly recommend you check this [repository](https://github.com/imorente/gatsby-netlify-form-example) for more details about the Google Recaptcha and Netlify forms
-
-## Installing
-
-Installing the dependencies
-
-```bash
-yarn
-```
-
-## Start the dev server
-
-```bash
-yarn start
-```
-
-### Clean the cache
-
-This removes the `.cache/` & `public/` folders
-
-```bash
-yarn reset
-```
 
 ## Built with
 
+- JavaScript
 - Gatsby
-- React & GraphQL
+- React 
+- GraphQL
 - VSCode
-- And these useful of JavaScript libraries & Gatsby plugins [package.json](package.json)
+
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Contributors
 
 
 
-## Support
+
+## Credits
 
 
-[Gatsby-theme-portfolio](https://github.com/smakosh/gatsby-theme-portfolio)
-
-[![Support me on Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/smakosh)
+[Gatsby-theme-portfolio](https://github.com/smakosh/gatsby-theme-portfolio) - Layout
+[bchiang/v4](https://github.com/bchiang7/v4) - Component Inspiration
