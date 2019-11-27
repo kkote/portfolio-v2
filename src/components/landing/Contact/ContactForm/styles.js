@@ -15,4 +15,12 @@ export const Center = styled.div`
 export const InputField = styled.div`
 	position: relative;
 	margin-bottom: 1rem;
+	
+
+	input ::placeholder {
+		color: #707070;
+	}
+	textarea ::placeholder {
+		color: #707070;
+	}
 `

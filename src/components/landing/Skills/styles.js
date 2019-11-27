@@ -66,6 +66,7 @@ columns: 3;
 -moz-columns: 3;
 
 padding-left: 1.2rem;
+color: #707070;
 
 
 `;

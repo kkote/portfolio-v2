@@ -18,6 +18,7 @@ font-family: 'Nunito Sans',sans-serif;
 	::after {
 		content: "";
 		display: block;
+		display: none;
 		height: 1px;
 		width: 300px;
 		background-color: 

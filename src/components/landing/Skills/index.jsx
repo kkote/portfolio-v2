@@ -37,7 +37,7 @@ export const Skills = () => (
       </Details>
 
       <Thumbnail>
-        <img src={dev} alt={dataconfig.defaultDescription} />
+       {/* <img src={dev} alt={dataconfig.defaultDescription} /> */}
       </Thumbnail>
     </SkillsWrapper>
   </Wrapper>
