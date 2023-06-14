@@ -1,10 +1,8 @@
-
-
 # Portfolio
 
-Portfolio website using a React, Gatsby, and displays projects with the GitHub API 
-
-
+Developed a portfolio website utilizing GraphQL to extract data from the GitHub API.
+Displayed my six most recent projects dynamically, showcasing my coding skills and project diversity.
+Implemented interactive features to allow visitors to explore project details and view live demos. 
 
 
 # How to Use
